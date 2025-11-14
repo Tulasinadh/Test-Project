@@ -43,7 +43,7 @@ public class PostCallBDD {
 		public void test2() throws IOException {
 				
 				String BaseURI = "https://api.github.com";
-				String token = "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";
+				String token = "";
 				
 				Map<String, Object> Headers = new HashMap<>();
 				Headers.put("Content-Type", ContentType.JSON);
