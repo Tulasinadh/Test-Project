@@ -1,0 +1,46 @@
+{
+	"info": {
+		"_postman_id": "1ab5739e-c24f-4b55-924b-8d247cbcc22f",
+		"name": "Phase End Project",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "29729393"
+	},
+	"item": [
+		{
+			"name": "Get Weather Data",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.openweathermap.org/data/2.5/weather?lat=17.72&lon=83.20&appid=2d150e80f12280eef91c621e8ac5cf28",
+					"protocol": "https",
+					"host": [
+						"api",
+						"openweathermap",
+						"org"
+					],
+					"path": [
+						"data",
+						"2.5",
+						"weather"
+					],
+					"query": [
+						{
+							"key": "lat",
+							"value": "17.72"
+						},
+						{
+							"key": "lon",
+							"value": "83.20"
+						},
+						{
+							"key": "appid",
+							"value": "2d150e80f12280eef91c621e8ac5cf28"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
