@@ -59,7 +59,7 @@ public void i_should_be_able_to_see_the_home_page() throws InterruptedException 
 @When("I enter the Username {string}")
 public void i_enter_the_Username(String UserNameVal) throws InterruptedException {
 	// Write code here that turns the phrase above into concrete actions
-	WebElement UserName = driver.findElement(By.name("user_login"));
+	WebElement UserName = driver.findElement(By.name("email"));
 	UserName.sendKeys(UserNameVal);
 	Thread.sleep(1000);
 }
