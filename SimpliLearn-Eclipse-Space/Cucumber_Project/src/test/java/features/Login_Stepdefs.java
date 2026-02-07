@@ -29,7 +29,7 @@ public void i_click_on_the_Login_Link() throws InterruptedException {
 @When("I enter the Username")
 public void i_enter_the_Username() throws InterruptedException {
 	// Write code here that turns the phrase above into concrete actions
-	WebElement UserName = driver.findElement(By.name("user_login"));
+	WebElement UserName = driver.findElement(By.name("email"));
 	UserName.sendKeys("abc@xyz.com");
 	Thread.sleep(1000);
 }
